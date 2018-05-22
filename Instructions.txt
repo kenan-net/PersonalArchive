@@ -1,0 +1,21 @@
+Instructions
+
+I - Setting up Git on Windows
+
+ 1. Download Git from: https://git-scm.com/downloads
+ 2. Install Notepad++ from https://notepad-plus-plus.org/download/v7.5.6.html
+ 3. Install Git (during one of the steps, select Notepad++ as default editor)
+ 4. Register at GitHub https://github.com/join?source=header-home
+ 5. Open GitBash and execute:
+	git config --global user.name "FirstName LastName"
+	git config --global user.email your_email@example.com
+
+	If you did not choose your default editor during setup, you can set it with the following command
+	git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -nosession"
+
+	To see the current configuration, run:
+	git config --list
+6. Clone the existing repository from the GitHub by executing:
+	git clone https://github.com/kenan-net/PersonalArchive.git
+
+II - Ways of working (TODO)
