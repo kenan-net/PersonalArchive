@@ -1,0 +1,12 @@
+Zadatak:
+Sakupljanje konfiguracijskih postavki i drugih informacija sa udaljenog uređaja
+
+Opširniji opis:
+Ponekad je potrebno na većem broju uređaja (router/switch) izvršiti set istih komandi. Pri tome se na uređaj spaja preko SSH protokola, i komande se moraju ručnu ukucati i izvršiti.
+Isto tako, ponekad se isti set komandi ili samo jedna komanda mora izvršiti na jednom uređaju više puta u toku dana, u pravilnim ili ne pravilnim vremenskim intervalima.
+
+Uređaj:
+Uređaj je definisan IP adresom, i pripadajućom korisničkim imenom i šifrom.
+
+
+Potrebno je da se softwer može konektovati putem SSH konekcije na udaljeni uređaj (router, switch)
